@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+    <style>
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        caption {
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: #bbbbbb;
+        }
+
+        thead, tfoot {
+            background-color: #a52a2a;
+        }
+
+        th, td {
+            border: 2px solid #000000;
+            padding: 5px;
+        }
+
+        td.dado {
+            text-align: right;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Monster Hunter World</caption>
+        <thead>
+            <th>Monstro</th>
+            <th>Fraqueza</th>
+            <th>Dificuldade</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Diablos</td>
+                <td class="dado">Gelo</td>
+                <td class="dado">7</td>
+            </tr>
+            <tr>
+                <td>Alatreon</td>
+                <td class="dado">Gelo e Fogo</td>
+                <td class="dado">9</td>
+            </tr>
+            <tr>
+                <td>Tigrex</td>
+                <td class="dado">Raio</td>
+                <td class="dado">6</td>
+            </tr>
+            <tr>
+                <td>Fatalis</td>
+                <td class="dado">Dragão</td>
+                <td class="dado">10</td>
+            </tr>
+            <tr>
+                <td>Namielle</td>
+                <td class="dado">Fogo e Dragão</td>
+                <td class="dado">7</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Dados finais</th>
+            <td class="dado">Mais pesquisas</td>
+            <td class="dado">Mais pesquisas</td>
+        </tfoot>
+    </table>    
+</body>
+</html>
